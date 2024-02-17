@@ -14,17 +14,17 @@ int main() {
     srand(time(0));
     string name;
     int input;
-    cout << "Prophet: What is your name?" << endl;
+    cout << "หมอปลาทอง: คุณชื่ออะไร?" << endl;
     cout << "???: ";
     cin >> name;
     cout << endl;
-    cout << "Prophet: Please choose your cards" << endl;
+    cout << "หมอปลาทอง: โปรดเลือกการ์ดเพื่อดูดวงชะตาของคุณ" << endl;
     for (int i = 0; i < sizeof(cards) / sizeof(cards[0]); i++){ 
         cout << "[" << i + 1 << "]" << " ";}
     cout << endl;
     cout << name << ": ";
     cin >> input;
-    cout << "Prophet: You got " << cards[randomcards()] << endl;
+    cout << "หมอปลาทอง: คุณได้ " << cards[randomcards()] << endl;
 
     return 0;
 }
