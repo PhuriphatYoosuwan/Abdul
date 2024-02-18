@@ -13,6 +13,6 @@ int randomcards(void){
 
 int main(){
     srand(time(0));
-    cout << cards[randomcards];
+    cout << cards[randomcards()];
 return 0;
 }
