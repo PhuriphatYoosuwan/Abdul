@@ -58,11 +58,6 @@ int main() {
             cin >> input;
     } 
         cout << "Prophet: You got " << cards[randomcards()] << endl;
-    }else{
-        cout << "mueng kuan teen roo?" << endl;
-        cout << "[1]Love [2]Study [3]Health [4]Money [5]dooduang" << endl;
-        cin >> ans;
-        cin.ignore();
     }
     return 0;
 }
