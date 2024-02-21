@@ -7,35 +7,36 @@ string cards[] = {"The Fool", "The Magician", "The High Priestess", "The Empress
                     "Justice","The Hanged Man","Death","Temperance","The Devil","The Tower","The Star","The Moon","The Sun","Judgement","The World"};
 
 
-int randomcards(void){
-    return rand()%22+1;
+int randomcards(void){                          //สุ่มการ์ด
+    return rand()%22;
 }
 
 int main() {
     srand(time(0));
     string name;
     int input,ans;
-    cout << "Prophet: What is your name?" << endl;
+    cout << "หมอปลา:สวัสดี คุณชื่ออะไร" << endl;
     cout << "???: ";
     getline(cin,name);
-    cout << "Prophet: What would you like to consult about?" << endl;
-    cout << "[1]Love [2]Study [3]Health [4]Money [5]dooduang" << endl;
+    cout << "คณอยากปรึกษาเรื่องอะไร" << endl;
+    cout << "[1]ความรัก [2]การเรียน [3]สุขภาพ [4]การเงิน [5]ดูดวง" << endl;
+    cout << name << ": ";
     cin >> ans;
     cin.ignore();
-    if(ans == 1){
-        cout << "I love " << name << " na <3";
+    if(ans == 1){                               //ความรัก
+        cout << "รักนะ " << name << " na <3";
     }
-    if(ans == 2){
-        cout << "Fighting!!!";
+    if(ans == 2){                               //การเรียน
+        cout << "สู้ๆ";
     }
-    if(ans == 3){
-        cout << "Exercise!!!";
+    if(ans == 3){                               //สุขภาพ
+        cout << "ออกกำลังกาย";
     }
-    if(ans == 4){
-        cout << "Save your Money";
+    if(ans == 4){                               //การเงิน
+        cout << "เก็บตัง";
     }
-    if(ans == 5){
-        cout << "Prophet: Please choose your cards" << endl;
+    if(ans == 5){                               //ดูดวง
+        cout << "หมอปลา: โปรดเลือกไพ่ที่คุณต้องการ" << endl;
         for (int i = 0; i < sizeof(cards) / sizeof(cards[0])-10; i++){ 
             cout << "[" << i + 1 << "]" << " ";}
         cout << endl;
@@ -45,7 +46,7 @@ int main() {
         cout << name << ": ";
         cin >> input;
         while(input > sizeof(cards)/sizeof(cards[0])){
-            cout << "Prophet: Isus Choose again yed mae!!" << endl;
+            cout << "หมอปลา: มึงกวนตีนกูละ" << endl;
             for (int i = 0; i < sizeof(cards)/sizeof(cards[0]) - 10; i++){ 
                 cout << "[" << i + 1 << "]" << " ";
             }
@@ -57,7 +58,7 @@ int main() {
             cout << name << ": ";
             cin >> input;
     } 
-        cout << "Prophet: You got " << cards[randomcards()] << endl;
+        cout << "หมอปลา: คุณได้รับ " << cards[randomcards()] << "!!!"<< endl;
     }
     return 0;
 }
