@@ -4,7 +4,7 @@
 using namespace std;
 
 string cards[] = {"The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant","The Lovers", "The Chariot", "Strength", " The Hermit", " The Wheel of Fortune"
-                    "Justice","The Hanged Man","Death","Temperance","The Devil","The Tower","The Star","The Moon","The Sun","Judgement","The World"};
+                    ,"Justice","The Hanged Man","Death","Temperance","The Devil","The Tower","The Star","The Moon","The Sun","Judgement","The World"};
 
 
 int randomcards(void){                          //สุ่มการ์ด
@@ -15,7 +15,7 @@ int main() {
     srand(time(0));
     string name;
     int input,ans;
-    cout << "หมอปลา:สวัสดี คุณชื่ออะไร" << endl;
+    cout << "หมอปลา:สวัสดี:) คุณชื่ออะไร" << endl;
     cout << "???: ";
     getline(cin,name);
     cout << "คณอยากปรึกษาเรื่องอะไร" << endl;
@@ -24,7 +24,7 @@ int main() {
     cin >> ans;
     cin.ignore();
     if(ans == 1){                               //ความรัก
-        cout << "รักนะ " << name << " na <3";
+        cout << "รัก " << name << " นะ <3";
     }
     if(ans == 2){                               //การเรียน
         cout << "สู้ๆ";
