@@ -1,0 +1,6 @@
+#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\random fuction\\random.h"
+#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\random fuction\\randomlove2.h"
+#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\random fuction\\randomhealth.h"
+#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\random fuction\\randommoney.h"
+#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\random fuction\\randomstudy.h"
+#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\random fuction\\randomlove1.h"
