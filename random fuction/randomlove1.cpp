@@ -9,23 +9,21 @@ string cards[] = {"The Fool", "The Magician", "The High Priestess", "The Empress
                     "Justice","The Hanged Man","Death","Temperance","The Devil","The Tower","The Star","The Moon","The Sun","Judgement","The World"};
 
 int randomcards(void){
-    return rand() % 22;  // Modify this line to generate a number between 0 and 21 (inclusive)
+    return rand() % 22;
 }
 
 int main(){
     srand(time(0));
     int n = randomcards();
-
     ifstream source;
-    source.open("love_1.txt");
-
+    source.open("love1.txt");
     string love;
     for(int i = 0; i < n + 1; i++){
         getline(source, love);
     }
 
     source.close();
-    cout <<"ไพ่ที่คุณได้รับคือไพ่ : "<< cards[n] << endl << love;
+    cout <<"ไพ่ที่คุณได้รับคือ : "<< cards[n] << endl << love;
 
     return 0;
 }

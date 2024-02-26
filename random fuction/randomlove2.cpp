@@ -16,7 +16,7 @@ int main(){
     int n = randomcards();
 
     ifstream source;
-    source.open("love_2.txt");
+    source.open("love2.txt");
 
     string love;
     for(int i = 0; i < n + 1; i++){
