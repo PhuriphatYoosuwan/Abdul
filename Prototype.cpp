@@ -2,9 +2,6 @@
 #include <cstdlib>
 #include <ctime>
 #include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\bot talking\\klongstudy.h"
-#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\random fuction\\random.h"
-#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\random fuction\\randomlove1.h"
-#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\random fuction\\randomlove2.h"
 
 using namespace std;
 
@@ -32,7 +29,7 @@ int main() {
     if(ans == '4'){                               //การเงิน
         ;
     }
-    if(ans == '5'){                               //ดูดวง
+    /*if(ans == '5'){                               //ดูดวง
         cout << "หมอปลา: คุณอยากดูดวงเรื่องอะไรละ?" << endl;
         cout << "[1]ความรัก [2]การเรียน [3]สุขภาพ [4]การเงิน [5]ดูดวง";
         cout << name << ": ";
@@ -45,14 +42,13 @@ int main() {
             cin >> ans;
             cin.ignore();
             if(ans == '1'){
-                /*decks();
+                decks();
                 cout << name << ": ";
                 cin >> ans;
-                cin.ignore();*/
+                cin.ignore();
                 randomlove1();
             }else randomlove2();
-        }/*else if(ans == '2')
-    }
+        }else if(ans == '2');
         
         cout << endl;
         cout << name << ": ";*/
