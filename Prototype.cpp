@@ -1,15 +1,16 @@
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
+#include"kongstudy.h"
 using namespace std;
 
-string cards[] = {"The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant","The Lovers", "The Chariot", "Strength", " The Hermit", " The Wheel of Fortune"
+/*string cards[] = {"The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant","The Lovers", "The Chariot", "Strength", " The Hermit", " The Wheel of Fortune"
                     ,"Justice","The Hanged Man","Death","Temperance","The Devil","The Tower","The Star","The Moon","The Sun","Judgement","The World"};
 
 
 int randomcards(void){                          //สุ่มการ์ด
     return rand()%22;
-}
+}*/
 
 int main() {
     srand(time(0));
@@ -24,7 +25,7 @@ int main() {
     cin >> ans;
     cin.ignore();
     if(ans == 1){                               //ความรัก
-        cout << "รัก " << name << " นะ <3";
+        study();
     }
     if(ans == 2){                               //การเรียน
         cout << "สู้ๆ";
