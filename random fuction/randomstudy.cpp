@@ -16,7 +16,7 @@ int main(){
     srand(time(0));
     int n = randomcards();
     ifstream source;
-    source.open("C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-5\\tarotcard\\love1.txt");
+    source.open("C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-5\\tarotcard\\study.txt");
     string love;
     for(int i = 0; i < n + 1; i++){
         getline(source, love);
