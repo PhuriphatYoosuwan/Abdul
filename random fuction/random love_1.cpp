@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <fstream>
+
 using namespace std;
 
 string cards[] = {"The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant","The Lovers", "The Chariot", "Strength", " The Hermit", " The Wheel of Fortune",
