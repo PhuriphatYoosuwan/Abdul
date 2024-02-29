@@ -1,0 +1,281 @@
+﻿  ChatForm.cpp
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(124,20): error C2750: 'System::Windows::Forms::Label': cannot use 'new' on the reference type; use 'gcnew' instead
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(124,29): error C2750: 'System::Windows::Forms::Label': cannot use 'new' on the reference type; use 'gcnew' instead
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(124,18): error C3673: 'System::Windows::Forms::Label': class does not have a copy-constructor
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,18): error C2664: 'void System::Windows::Forms::Control::ControlCollection::Add(System::Windows::Forms::Control ^)': cannot convert argument 1 from 'System::Windows::Forms::Label' to 'System::Windows::Forms::Control ^'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,24):
+  No user-defined-conversion operator available, or
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,24):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,1):
+  see declaration of 'System::Windows::Forms::Control::ControlCollection::Add'
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,18):
+  while trying to match the argument list '(System::Windows::Forms::Label)'
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(127,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(127,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(127,11): error C2232: '->System::Windows::Forms::Control::BackColor': left operand has 'class' type, use '.'
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(128,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(128,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(128,11): error C2232: '->System::Windows::Forms::Control::Font': left operand has 'class' type, use '.'
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(130,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(130,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(130,11): error C2232: '->System::Windows::Forms::Control::ForeColor': left operand has 'class' type, use '.'
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(131,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(131,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(131,11): error C2232: '->System::Windows::Forms::Control::Location': left operand has 'class' type, use '.'
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(132,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(132,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(132,11): error C2232: '->System::Windows::Forms::Control::Name': left operand has 'class' type, use '.'
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(133,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(133,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(133,11): error C2232: '->System::Windows::Forms::Control::Size': left operand has 'class' type, use '.'
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(134,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(134,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(134,11): error C2232: '->System::Windows::Forms::Control::TabIndex': left operand has 'class' type, use '.'
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(135,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(135,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(135,11): error C2232: '->System::Windows::Forms::Label::Text': left operand has 'class' type, use '.'
+  (compiling source file 'ChatForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(136,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'ChatForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(136,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(136,11): error C2232: '->System::Windows::Forms::Label::TextAlign': left operand has 'class' type, use '.'
+  (compiling source file 'ChatForm.cpp')
+  
+  Run.cpp
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(124,20): error C2750: 'System::Windows::Forms::Label': cannot use 'new' on the reference type; use 'gcnew' instead
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(124,29): error C2750: 'System::Windows::Forms::Label': cannot use 'new' on the reference type; use 'gcnew' instead
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(124,18): error C3673: 'System::Windows::Forms::Label': class does not have a copy-constructor
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,18): error C2664: 'void System::Windows::Forms::Control::ControlCollection::Add(System::Windows::Forms::Control ^)': cannot convert argument 1 from 'System::Windows::Forms::Label' to 'System::Windows::Forms::Control ^'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,24):
+  No user-defined-conversion operator available, or
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,24):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,1):
+  see declaration of 'System::Windows::Forms::Control::ControlCollection::Add'
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,18):
+  while trying to match the argument list '(System::Windows::Forms::Label)'
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(127,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(127,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(127,11): error C2232: '->System::Windows::Forms::Control::BackColor': left operand has 'class' type, use '.'
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(128,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(128,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(128,11): error C2232: '->System::Windows::Forms::Control::Font': left operand has 'class' type, use '.'
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(130,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(130,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(130,11): error C2232: '->System::Windows::Forms::Control::ForeColor': left operand has 'class' type, use '.'
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(131,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(131,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(131,11): error C2232: '->System::Windows::Forms::Control::Location': left operand has 'class' type, use '.'
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(132,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(132,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(132,11): error C2232: '->System::Windows::Forms::Control::Name': left operand has 'class' type, use '.'
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(133,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(133,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(133,11): error C2232: '->System::Windows::Forms::Control::Size': left operand has 'class' type, use '.'
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(134,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(134,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(134,11): error C2232: '->System::Windows::Forms::Control::TabIndex': left operand has 'class' type, use '.'
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(135,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(135,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(135,11): error C2232: '->System::Windows::Forms::Label::Text': left operand has 'class' type, use '.'
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(136,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'Run.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(136,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(136,11): error C2232: '->System::Windows::Forms::Label::TextAlign': left operand has 'class' type, use '.'
+  (compiling source file 'Run.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\Run.cpp(8,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  StartForm.cpp
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(124,20): error C2750: 'System::Windows::Forms::Label': cannot use 'new' on the reference type; use 'gcnew' instead
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(124,29): error C2750: 'System::Windows::Forms::Label': cannot use 'new' on the reference type; use 'gcnew' instead
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(124,18): error C3673: 'System::Windows::Forms::Label': class does not have a copy-constructor
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,18): error C2664: 'void System::Windows::Forms::Control::ControlCollection::Add(System::Windows::Forms::Control ^)': cannot convert argument 1 from 'System::Windows::Forms::Label' to 'System::Windows::Forms::Control ^'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,24):
+  No user-defined-conversion operator available, or
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,24):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,1):
+  see declaration of 'System::Windows::Forms::Control::ControlCollection::Add'
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(125,18):
+  while trying to match the argument list '(System::Windows::Forms::Label)'
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(127,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(127,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(127,11): error C2232: '->System::Windows::Forms::Control::BackColor': left operand has 'class' type, use '.'
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(128,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(128,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(128,11): error C2232: '->System::Windows::Forms::Control::Font': left operand has 'class' type, use '.'
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(130,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(130,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(130,11): error C2232: '->System::Windows::Forms::Control::ForeColor': left operand has 'class' type, use '.'
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(131,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(131,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(131,11): error C2232: '->System::Windows::Forms::Control::Location': left operand has 'class' type, use '.'
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(132,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(132,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(132,11): error C2232: '->System::Windows::Forms::Control::Name': left operand has 'class' type, use '.'
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(133,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(133,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(133,11): error C2232: '->System::Windows::Forms::Control::Size': left operand has 'class' type, use '.'
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(134,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(134,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(134,11): error C2232: '->System::Windows::Forms::Control::TabIndex': left operand has 'class' type, use '.'
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(135,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(135,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(135,11): error C2232: '->System::Windows::Forms::Label::Text': left operand has 'class' type, use '.'
+  (compiling source file 'StartForm.cpp')
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(136,4): error C2819: type 'System::Windows::Forms::Label' does not have an overloaded member 'operator ->'
+  (compiling source file 'StartForm.cpp')
+  C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(136,4):
+  did you intend to use '.' instead?
+  
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\ChatForm.h(136,11): error C2232: '->System::Windows::Forms::Label::TextAlign': left operand has 'class' type, use '.'
+  (compiling source file 'StartForm.cpp')
+  
+  Generating Code...

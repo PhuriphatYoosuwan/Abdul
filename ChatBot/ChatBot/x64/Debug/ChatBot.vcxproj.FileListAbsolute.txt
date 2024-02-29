@@ -1,0 +1,4 @@
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\x64\Debug\ChatBot.vcxproj.AssemblyReference.cache
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\x64\Debug\ChatBot.StartForm.resources
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\x64\Debug\ChatBot.vcxproj.GenerateResource.cache
+C:\Users\phuyo\source\repos\ChatBot\ChatBot\x64\Debug\ChatBot.ChatForm.resources
