@@ -1,7 +1,8 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "C:\\Users\\phuyo\\OneDrive\\Adbul\\Abdul-6\\bot talking\\klongstudy.h"
+#include "bot talking\\klongstudy.h"
+#include "random fuction\\random.h"
 
 using namespace std;
 
@@ -29,9 +30,9 @@ int main() {
     if(ans == '4'){                               //การเงิน
         ;
     }
-    /*if(ans == '5'){                               //ดูดวง
+    if(ans == '5'){                               //ดูดวง
         cout << "หมอปลา: คุณอยากดูดวงเรื่องอะไรละ?" << endl;
-        cout << "[1]ความรัก [2]การเรียน [3]สุขภาพ [4]การเงิน [5]ดูดวง";
+        cout << "[1]ความรัก [2]การเรียน [3]สุขภาพ [4]การเงิน [5]ดูดวง" <<endl;
         cout << name << ": ";
         cin >> ans;
         cin.ignore();
@@ -42,15 +43,24 @@ int main() {
             cin >> ans;
             cin.ignore();
             if(ans == '1'){
-                decks();
+                decks(); 
+                cout << endl;
                 cout << name << ": ";
                 cin >> ans;
                 cin.ignore();
                 randomlove1();
-            }else randomlove2();
+            }else {
+                decks(); 
+                cout << endl;
+                cout << name << ": ";
+                cin >> ans;
+                cin.ignore();
+                randomlove2();
+                }
         }else if(ans == '2');
         
         cout << endl;
-        cout << name << ": ";*/
+        cout << name << ": ";
     return 0;
     }
+}
