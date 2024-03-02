@@ -1,8 +1,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "bot talking\\klongstudy.h"
-#include "random fuction\\random.h"
+#include <string>
+#include "bottalking\\klongstudy.h"
+#include "randomfuction\\random.h"
 
 using namespace std;
 

@@ -1,1 +1,1 @@
-        cin >> ans;
+getline

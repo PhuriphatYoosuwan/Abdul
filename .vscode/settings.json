@@ -6,7 +6,8 @@
     "string": "cpp",
     "iosfwd": "cpp",
     "fstream": "cpp",
-    "ratio": "cpp"
+    "ratio": "cpp",
+    "iomanip": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
