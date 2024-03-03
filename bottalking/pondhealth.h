@@ -1,5 +1,6 @@
 #include <iostream>
-
+#include <cstdlib> 
+#include <ctime>
 
 using namespace std;
 
@@ -7,6 +8,13 @@ using namespace std;
 
     void health(){
     int ans;
+        string activities[5] = {
+        "การเดินรอบบ้าน",
+        "การวิ่งเล่น",
+        "การกระโดดเชือก",
+        "การยืดเหยียด",
+        "การซ้อมเพิ่มกำลัง"
+    };
     cout << "คุณอยากจะปรึกษาเราเกี่ยวกับเรื่องสุขภาพใช่หรือไม่" << endl;
     cout << "[1]ใช่ [2]ไม่ใช่" << endl;
     cout << "คุณเลือก:" ;
@@ -47,7 +55,18 @@ using namespace std;
             cout << "[1]อยากได้ [2]ไม่เอาอะ"<<endl;
             cin >> ans;
             if(ans==1){
-                cout <<"ยังไม่ได้ใส่"<<endl;
+            string activities[5] = {
+            "การเดินรอบบ้าน",
+            "การวิ่งเล่น",
+            "การกระโดดเชือก",
+            "การยืดเหยียด",
+            "การซ้อมเพิ่มกำลัง"
+              };
+             int durations[5] = {30, 20, 15, 10, 25};
+             srand(time(NULL));
+             int index = rand() % 5;
+                cout << "วันนี้คุณสามารถออกกำลังกายโดย: " << activities[index] << " เป็นเวลา " << durations[index] << " นาที" << endl;
+                
             }
     //ใส่เนื้อหาการออกกำลังกายเบื้องต้นด้วยยยยยยยยยยยยยยยยยยยยยยยยยยยยย
             else if(ans==2){

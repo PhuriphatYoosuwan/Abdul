@@ -29,10 +29,4 @@ void minigame() {
         n *= 10;
         t += 2;
         }
-    }
-
-int main() {
-    srand(time(0));
-    minigame();
-    return 0;                                                                                                                           
 }

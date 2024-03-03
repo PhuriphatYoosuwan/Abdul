@@ -4,18 +4,11 @@
 
 using namespace std;
 
-int main() {
-    string input_text;
-    cout << "Enter text slowly: ";
-    getline(cin, input_text); // รับข้อความจากผู้ใช้
-
-    // พิมพ์ข้อความตัวอักษรทีละตัวโดยมีการหน่วงเวลา 300 มิลลิวินาที
+void type(const string& input_text) {
+    // พิมพ์ข้อความตัวอักษรทีละตัวโดยมีการหน่วงเวลา 150 มิลลิวินาที
     for (char c : input_text) {
-        cout << c << std::flush;
-        this_thread::sleep_for(std::chrono::milliseconds(150));
+        cout << c << flush;
+        this_thread::sleep_for(chrono::milliseconds(50));
     }
-
     cout << endl; // พิมพ์ขึ้นบรรทัดใหม่หลังจากพิมพ์ข้อความเสร็จ
-
-    return 0;
 }
