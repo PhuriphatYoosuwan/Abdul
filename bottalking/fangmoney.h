@@ -4,7 +4,7 @@ using namespace std;
 int choice;
 int val;
 
-int main(){
+void money(){
     cout << "สวัสดี ค่ะ/ครับ ฉันคือ Financial Bot Advisor"<< endl;
     cout << "คุณต้องการให้ฉันช่วยอะไร" << endl <<"[1]แนะนำการออมเงิน [2]วิเคราห์รายรับ-รายจ่าย [3]วางแผนการลงทุน" << endl;
     cin >> choice;

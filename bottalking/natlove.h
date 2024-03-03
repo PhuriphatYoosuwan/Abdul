@@ -5,7 +5,7 @@ using namespace std;
 
 
 
-    int main(){
+    void love(){
     int ans;
     cout << "คุณอยากจะปรึกษาเราเกี่ยวกับเรื่องความรักใช่หรือไม่" << endl;
     cout << "[1]ใช่ [2]ไม่ใช่" << endl;

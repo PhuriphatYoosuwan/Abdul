@@ -5,7 +5,7 @@ using namespace std;
 
 
 
-    int main(){
+    void health(){
     int ans;
     cout << "คุณอยากจะปรึกษาเราเกี่ยวกับเรื่องสุขภาพใช่หรือไม่" << endl;
     cout << "[1]ใช่ [2]ไม่ใช่" << endl;
