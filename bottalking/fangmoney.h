@@ -4,7 +4,7 @@ using namespace std;
 int choice;
 int val;
 
-void money(){
+int main(){
     cout << "สวัสดี ค่ะ/ครับ ฉันคือ Financial Bot Advisor"<< endl;
     cout << "คุณต้องการให้ฉันช่วยอะไร" << endl <<"[1]แนะนำการออมเงิน [2]วิเคราห์รายรับ-รายจ่าย [3]วางแผนการลงทุน" << endl;
     cin >> choice;
@@ -27,7 +27,7 @@ void money(){
             cout << "การออมเงินเพื่อลดหนี้สิน...";
         }else if(choice == 6){
             cout << "การออมเงินเพื่อสร้างวินัย...";
-        }else{
+        }else{ 
             cout << "กรุณากรอกให้ถูกต้อง...";
         }
     }else if(choice == 2){
@@ -38,4 +38,5 @@ void money(){
     }else{
         cout << "กรุณากรอกให้ถูกต้อง";
     }
+    
 }
