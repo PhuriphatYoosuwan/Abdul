@@ -8,6 +8,7 @@
 #include "bottalking\\pondhealth.h"
 #include "randomfuction\\random.h"
 #include "luckynumber.h"
+#include "type.h"
 
 using namespace std;
 
@@ -29,13 +30,15 @@ void intro(){
 void start(){
     int ans;
     do{
-    cout << "สวััสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้" << endl;
+    this_thread::sleep_for(chrono::seconds(5));
+    system("cls");
+    type("สวััสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้");
     cout << "[1]ปรึกษาเรื่องความรัก" << endl;
     cout << "[2]ปรึกษาเรื่องการเรียน" << endl;
     cout << "[3]ปรึกษาเรื่องสุขภาพ" << endl;
     cout << "[4]ปรึกษาเรื่องการเงิน" << endl;
     cout << "[5]ดูดวง" << endl;
-    cout <<"[999]เลขเด็ด" << endl;
+    cout << "[999]เลขเด็ด" << endl;
     cin >> ans;
     if(ans == 1){  
         system("cls");                             //ความรัก

@@ -16,17 +16,17 @@ void minigame() {
         cout << num;
         cout << endl;   
         for (int ii = t; ii >= 0; --ii) { //นับเวลาถอยหลัง
-            cout << "\rTime lefted " << ii << " seconds";
+            cout << "\rเวลา " << ii << " วินาที";
             fflush(stdout);
             this_thread::sleep_for(chrono::seconds(1));
         }
         system("cls"); //ล้างหน้าจอ ternimal
-        cout << "Please input your answer: ";
+        cout << "โปรดใส่ตัว้ชข: ";
         cin >> ans;
         if(ans != num){
-            cout << "wrong";
+            cout << "ผิดจ้า";
             break;
-            }
+        }
         n *= 10;
         t += 2;
         }

@@ -8,13 +8,13 @@ using namespace std;
 void reminder() {
     string topic;
     int d, h, m, s;
-    cout << "Please enter your topic: ";
+    cout << "ใส่หัวข้อ: ";
     cin >> topic;
-    cout << "Enter hours: ";
+    cout << "ใส่ชั่วโมง: ";
     cin >> h;
-    cout << "Enter minutes: ";
+    cout << "ใส่นาที: ";
     cin >> m;
-    cout << "Enter seconds: ";
+    cout << "ใส่วินาที: ";
     cin >> s;
     h *= 3600;
     m *= 60;
@@ -27,5 +27,6 @@ void reminder() {
         fflush(stdout);
         this_thread::sleep_for(chrono::seconds(1));
     }
-    cout << endl << "Time's Up!";
+    cout << endl << "ตู๊ดตู๊ดตู๊ด หมดเวลาแล้วจ้า!";
 }
+
