@@ -32,15 +32,6 @@ double calculateBalance(const vector<Transaction>& transactions) {
     return balance;
 }
 
-// ฟังก์ชันสำหรับแสดงประวัติรายการทั้งหมด ของ fangmoney โหมด2
-void displayTransactionHistory(const vector<Transaction>& transactions) {
-    cout << "ประวัติรายการทั้งหมด:" << endl;
-    for (const Transaction& transaction : transactions) {
-        cout << "รายการ: " << transaction.description << ", จำนวนเงิน: " << transaction.amount << " บาท" << endl;
-        cout << "--------------------------------------------------------------------------------------------------------------" << endl;
-    }
-}
-
 void money(){
     cout << "สวัสดี ค่ะ/ครับ ฉันคือ Financial Bot Advisor"<< endl;
     cout << "คุณต้องการให้ฉันช่วยอะไร" << endl <<"[1]แนะนำการออมเงิน [2]วิเคราห์รายรับ-รายจ่าย [3]วางแผนการลงทุน" << endl;
@@ -75,23 +66,19 @@ void money(){
         char choice;
 
         do {
-        cout << "เลือกทำรายการ ([A]เพิ่มรายการ [B]ดูยอดคงเหลือ [H]ดูประวัติ, [Q]ออกจากโปรแกรม): ";
+        cout << "เลือกทำรายการ ([1]เพิ่มรายการ [2]ดูยอดคงเหลือ [3]ออกจากโปรแกรม): ";
         cin >> choice;
         cin.ignore(); // เพื่อล้าง buffer หลังจากการรับตัวอักษร
         choice = toupper(choice);
 
         switch (choice) {
-            case 'A':
+            case '1':
                 addTransaction(transactions);
                 break;
-            case 'B':
+            case '2':
                 cout << "ยอดคงเหลือ: " << calculateBalance(transactions) << " บาท" << endl;
                 break;
-            case 'H':
-                displayTransactionHistory(transactions);
-                break;
-            case 'Q':
-                cout << "ออกจากโปรแกรม" << endl;
+            case '3':
                 break;
             default:
                 cout << "กรุณาเลือกทำรายการใหม่" << endl;
