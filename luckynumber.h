@@ -25,7 +25,7 @@ void luckynumber() {
     }
     else if(ans==3){
         int random_number = rand() % 900000 + 100000;
-        cout << "เลขเด็ด 61 หลักของคุณคือ :" << random_number << endl;
+        cout << "เลขเด็ด 6 หลักของคุณคือ :" << random_number << endl;
     }
   }
   else if(ans==2){
