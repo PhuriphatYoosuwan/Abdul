@@ -66,8 +66,10 @@ using namespace std;
         if(ans == 1){
             minigame();
         }if(ans == 2){
+            system("cls");
+            cout << "โปรดจำตัวเลขที่คุณเห็นไว้";
             reminder();
         }
 
-    }else cout << "ดีแล้วละ:)";
+    }else cout << "คุณอยากไปดูหัวข้ออื่นของเรามั้ย";
     }

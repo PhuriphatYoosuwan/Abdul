@@ -21,7 +21,7 @@ void minigame() {
             this_thread::sleep_for(chrono::seconds(1));
         }
         system("cls"); //ล้างหน้าจอ ternimal
-        cout << "โปรดใส่ตัว้ชข: ";
+        cout << "โปรดใส่ตัวเลข: ";
         cin >> ans;
         if(ans != num){
             cout << "ผิดจ้า";
