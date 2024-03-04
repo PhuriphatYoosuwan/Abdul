@@ -32,7 +32,7 @@ int start(void){
     int ans;
     //do{
     this_thread::sleep_for(chrono::seconds(1));
-    system("cls");
+    system("cls");//เคลียร์ terminal
     type("สวััสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้");
     cout << "[1]ปรึกษาเรื่องความรัก" << endl;
     cout << "[2]ปรึกษาเรื่องการเรียน" << endl;
