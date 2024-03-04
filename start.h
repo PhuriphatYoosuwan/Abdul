@@ -27,6 +27,8 @@ void intro(){
 }
 
 void start(){
+    int ans;
+    do{
     cout << "สวััสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้" << endl;
     cout << "[1]ปรึกษาเรื่องความรัก" << endl;
     cout << "[2]ปรึกษาเรื่องการเรียน" << endl;
@@ -34,7 +36,6 @@ void start(){
     cout << "[4]ปรึกษาเรื่องการเงิน" << endl;
     cout << "[5]ดูดวง" << endl;
     cout <<"[999]เลขเด็ด" << endl;
-    int ans;
     cin >> ans;
     if(ans == 1){  
         system("cls");                             //ความรัก
@@ -108,8 +109,8 @@ void start(){
         system("cls");
         luckynumber();
     }
+    }while(ans != 1 || ans != 2 || ans != 3 || ans != 4 || ans != 5 || ans != 999);
 }
-
 /*int main(){
     start();
     return 0;
