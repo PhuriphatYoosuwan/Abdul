@@ -3,8 +3,8 @@
 #include <chrono>
 #include <thread>
 #include <ctime>
-#include "misc\\reminder.h"
-#include "misc\\timer.h"
+#include "reminder.h"
+#include "timer.h"
 
 using namespace std;
 
@@ -64,7 +64,7 @@ using namespace std;
         cout << "[1]ฝึกความจำ [2]ตัวช่วยเตือนความจำ" << endl;
         cin >> ans;
         if(ans == 1){
-            timer();
+            minigame();
         }if(ans == 2){
             reminder();
         }
