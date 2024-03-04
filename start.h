@@ -31,7 +31,7 @@ void intro(){
 int start(void){
     int ans;
     //do{
-    this_thread::sleep_for(chrono::seconds(3));
+    this_thread::sleep_for(chrono::seconds(1));
     system("cls");
     type("สวััสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้");
     cout << "[1]ปรึกษาเรื่องความรัก" << endl;
@@ -41,6 +41,7 @@ int start(void){
     cout << "[5]ดูดวง" << endl;
     cout << "[999]เลขเด็ด" << endl << endl;
     cout << "[0]เพื่อออกจากโปรแกรม" << endl; 
+    cout << "!!!พิมพ์เลขอื่นนอกเหนือที่เรากำหนดไว้เพื่อกลับสู่หน้านี้!!!" << endl;
     cin >> ans;
     if(ans == 1){  
         system("cls");                             //ความรัก
@@ -118,7 +119,7 @@ int start(void){
         cout << "----------     ขอบคุณที่ใช้บริการ ChatBOT     ----------";
         return 0;
     }while(ans != 1 || ans != 2 || ans != 3 || ans != 4 || ans != 5 || ans != 999){
-        this_thread::sleep_for(chrono::seconds(3));
+        this_thread::sleep_for(chrono::seconds(5));
         system("cls");
         cout << "สวััสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้" << endl;
         cout << "[1]ปรึกษาเรื่องความรัก" << endl;

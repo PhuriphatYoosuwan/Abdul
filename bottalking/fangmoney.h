@@ -79,7 +79,7 @@ void money(){
                 cout << "ยอดคงเหลือ: " << calculateBalance(transactions) << " บาท" << endl;
                 break;
             case '3':
-                break;
+            
             default:
                 cout << "กรุณาเลือกทำรายการใหม่" << endl;
         }
