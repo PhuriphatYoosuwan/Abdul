@@ -79,11 +79,12 @@ void money(){
                 cout << "ยอดคงเหลือ: " << calculateBalance(transactions) << " บาท" << endl;
                 break;
             case '3':
-            
+                cout << "ออกจากโปรแกรม";
+                break;
             default:
                 cout << "กรุณาเลือกทำรายการใหม่" << endl;
         }
-    } while (choice != 'Q');
+    } while (choice != '3');
 
     }else if(choice == 3){
         cout << "กรอกจำนวนเงินทุนของคุณ" << endl ;

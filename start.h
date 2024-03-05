@@ -33,7 +33,7 @@ int start(void){
     //do{
     this_thread::sleep_for(chrono::seconds(1));
     system("cls");//เคลียร์ terminal
-    type("สวััสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้");
+    type("สวัสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้");
     cout << "[1]ปรึกษาเรื่องความรัก" << endl;
     cout << "[2]ปรึกษาเรื่องการเรียน" << endl;
     cout << "[3]ปรึกษาเรื่องสุขภาพ" << endl;
@@ -121,14 +121,15 @@ int start(void){
     }while(ans != 1 || ans != 2 || ans != 3 || ans != 4 || ans != 5 || ans != 999){
         this_thread::sleep_for(chrono::seconds(5));
         system("cls");
-        cout << "สวััสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้" << endl;
+        cout << "สวัสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้" << endl;
         cout << "[1]ปรึกษาเรื่องความรัก" << endl;
         cout << "[2]ปรึกษาเรื่องการเรียน" << endl;
         cout << "[3]ปรึกษาเรื่องสุขภาพ" << endl;
         cout << "[4]ปรึกษาเรื่องการเงิน" << endl;
         cout << "[5]ดูดวง" << endl;
-        cout << "[999]เลขเด็ด" << endl;
-        cout << "[0]เพื่อออกจากโปรแกรม" << endl;
+        cout << "[999]เลขเด็ด" << endl << endl;
+        cout << "[0]เพื่อออกจากโปรแกรม" << endl; 
+        cout << "!!!พิมพ์เลขอื่นนอกเหนือที่เรากำหนดไว้เพื่อกลับสู่หน้านี้!!!" << endl;
         cin >> ans;
         if(ans == 1){  
             system("cls");                             //ความรัก
