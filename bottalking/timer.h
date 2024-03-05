@@ -4,15 +4,16 @@
 #include <chrono>
 #include <thread>
 #include <ctime>
+#include <cmath>
 
 using namespace std;
 
 void minigame() {
     int ans, num;
-    int n = 10;
+    int n = 1;
     int t = 3;
     for (int jj = 1; jj <= 12; jj++) {
-        num = rand() % n;
+        num = rand() % static_cast<int>(pow(10, n));;
         cout << num;
         cout << endl;   
         for (int ii = t; ii >= 0; --ii) { //นับเวลาถอยหลัง
@@ -27,7 +28,8 @@ void minigame() {
             cout << "ผิดจ้า";
             break;
         }
-        n *= 10;
+        n++;
         t += 2;
+        system("cls");
         }
 }

@@ -64,10 +64,9 @@ using namespace std;
         cout << "[1]ฝึกความจำ [2]ตัวช่วยเตือนความจำ" << endl;
         cin >> ans;
         if(ans == 1){
+            system("cls");
             minigame();
         }if(ans == 2){
-            system("cls");
-            cout << "โปรดจำตัวเลขที่คุณเห็นไว้";
             reminder();
         }
 
