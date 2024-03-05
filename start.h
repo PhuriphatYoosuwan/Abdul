@@ -77,14 +77,18 @@ int start(void){
                 cout << endl;
                 cin >> ans;
                 cin.ignore();
-                randomlove1();
+                if(ans <= 22){
+                    randomlove1();
+                }else cout << "คุณจะกลับสู่หน้าแรก";
             }else {
                 system("cls");
                 decks(); 
                 cout << endl;
                 cin >> ans;
                 cin.ignore();
-                randomlove2();
+                if(ans <= 22){
+                    randomlove2();
+                }else cout << "คุณจะกลับสู่หน้าแรก";
                 }
         }else if(ans == 2){
                 system("cls");
@@ -92,21 +96,27 @@ int start(void){
                 cout << endl;
                 cin >> ans;
                 cin.ignore();
-                randomstudy();
+                if(ans <= 22){
+                    randomstudy();
+                }else cout << "คุณจะกลับสู่หน้าแรก";
         }else if(ans == 3){
                 system("cls");
                 decks(); 
                 cout << endl;
                 cin >> ans;
                 cin.ignore();
-                randomhealth();
+                if(ans <= 22){
+                    randomhealth();
+                }else cout << "คุณจะกลับสู่หน้าแรก";
         }else if(ans == 4){
                 system("cls");
                 decks(); 
                 cout << endl;
                 cin >> ans;
                 cin.ignore();
-                randommoney();
+                if(ans <= 22){
+                    randommoney();
+                }else cout << "คุณจะกลับสู่หน้าแรก";
         }
         
         cout << endl;
@@ -119,7 +129,7 @@ int start(void){
         cout << "----------     ขอบคุณที่ใช้บริการ ChatBOT     ----------";
         return 0;
     }while(ans != 1 || ans != 2 || ans != 3 || ans != 4 || ans != 5 || ans != 999){
-        this_thread::sleep_for(chrono::seconds(5));
+        this_thread::sleep_for(chrono::seconds(1));
         system("cls");
         cout << "สวัสดีเราคือ ChatBOT นี่คือสิ่งที่่เราสามารถช่วยคุณได้" << endl;
         cout << "[1]ปรึกษาเรื่องความรัก" << endl;
