@@ -31,6 +31,8 @@ void randomlove1(){
     }
     source.close();
     cout <<"ไพ่ที่คุณได้รับคือ : "<< cards[n] << endl << love;
+    cin.ignore();
+    cout<<"      ";
 }
 
 void randomlove2(){
@@ -44,6 +46,8 @@ void randomlove2(){
     }
     source.close();
     cout <<"ไพ่ที่คุณได้รับคือ : "<< cards[n] << endl << love;
+    cin.ignore();
+    cout<<"      ";
 }
 
 void randomhealth(){
@@ -57,6 +61,8 @@ void randomhealth(){
     }
     source.close();
     cout <<"ไพ่ที่คุณได้รับคือ : "<< cards[n] << endl << love;
+    cin.ignore();
+    cout<<"      ";
 }
 
 void randommoney(){
@@ -70,6 +76,8 @@ void randommoney(){
     }
     source.close();
     cout <<"ไพ่ที่คุณได้รับคือ : "<< cards[n] << endl << love;
+    cin.ignore();
+    cout<<"      ";
 }
 
 void randomstudy(){
@@ -83,4 +91,6 @@ void randomstudy(){
     }
     source.close();
     cout <<"ไพ่ที่คุณได้รับคือ : "<< cards[n] << endl << love;
+    cin.ignore();
+    cout<<"      ";
 }
