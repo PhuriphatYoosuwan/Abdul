@@ -92,29 +92,33 @@ int start(void){
                 }
         }else if(ans == 2){
                 system("cls");
-                decks(); 
+                decks();
+                int b; 
                 cout << endl;
-                cin >> ans;
+                cin >> b;
                 cin.ignore();
-                if(ans <= 22){
+                if(b <= 22){
                     randomstudy();
-                }else cout << "คุณจะกลับสู่หน้าแรก";
+                }
+                else cout << "คุณจะกลับสู่หน้าแรก";
         }else if(ans == 3){
                 system("cls");
-                decks(); 
+                decks();
+                int a; 
                 cout << endl;
-                cin >> ans;
+                cin >> a;
                 cin.ignore();
-                if(ans <= 22){
+                if(a <= 22){
                     randomhealth();
                 }else cout << "คุณจะกลับสู่หน้าแรก";
         }else if(ans == 4){
                 system("cls");
                 decks(); 
+                int c;
                 cout << endl;
-                cin >> ans;
+                cin >> c;
                 cin.ignore();
-                if(ans <= 22){
+                if(c <= 22){
                     randommoney();
                 }else cout << "คุณจะกลับสู่หน้าแรก";
         }
